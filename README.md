@@ -4,7 +4,7 @@
 
 <!-- ![Coverage](.github/badges/jacoco.svg) -->
 
-<!-- ![Coverage](https://booboothefool.sgp1.digitaloceanspaces.com/coverage/day2Giphy/jacoco.svg) -->
+![Coverage](https://booboothefool.sgp1.digitaloceanspaces.com/coverage/day2Giphy/jacoco.svg)
 
-![Coverage](https://booboothefool.sgp1.digitaloceanspaces.com)
+<!-- ![Coverage](https://booboothefool.sgp1.digitaloceanspaces.com) -->
 
