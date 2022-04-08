@@ -39,9 +39,7 @@ public class GiphyService {
         ResponseEntity<String> resp = template.exchange(req, String.class);
 
 
-        return Gif.create(resp.getBody(), limit);
-        
-
+        return Gif.create(resp.getBody());
 
     }
 }

@@ -30,7 +30,7 @@ public class Gif {
     }
 
     //create method
-    public static List<Gif> create(String s, Integer limit){
+    public static List<Gif> create(String s){
         List<Gif> list = new LinkedList<Gif>();
 
         try (InputStream is = new ByteArrayInputStream(s.getBytes())) {
@@ -47,7 +47,7 @@ public class Gif {
 
             //r.size();
             
-            for(int i=0;i<limit;i++){
+            for(int i=0;i<r.size();i++){
                 JsonObject c = r.getJsonObject(i);
                 JsonObject q = c.getJsonObject("images");
                 JsonObject t = q.getJsonObject("original");
